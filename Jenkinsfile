@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: '<URL-de-ton-depot-Git>'
+                git branch: 'main', url: 'https://github.com/eisenhowair/IHMProjects'
             }
         }
         stage('Find Solutions') {
