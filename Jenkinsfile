@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    tools {
-        msbuild 'MSBuild' // Configure MSBuild dans Jenkins
-    }
     environment {
         BUILD_CONFIG = 'Release' // Mode de compilation
     }
